@@ -1,0 +1,56 @@
+---
+title: "Codebook"
+output: html_document
+---
+
+subject	integer ranges from [1, 30]	 with labelling describing the activity of the subject   
+activity	factor ranges from [1, 6]	 identifies the subject performing activity   
+time.body.acc.mean...x	numeric ranges from [-1, 1]	data displays mean of mean time on body acceleration in x direction
+time.body.acc.mean...y	numeric ranges from [-1, 1]	data displays mean of mean time on body acceleration in y direction
+time.body.acc.mean...z	numeric ranges from [-1, 1]	data displays mean of mean time on body acceleration in z direction
+time.gravity.acc.mean...x	numeric ranges from [-1, 1]	data displays mean of mean time on gravity acceleration in x direction
+time.gravity.acc.mean...y	numeric ranges from [-1, 1]	data displays mean of mean time on gravity acceleration in y direction
+time.gravity.acc.mean...z	numeric ranges from [-1, 1]	data displays mean of mean time on gravity acceleration in z direction
+time.body.accjerk.mean...x	numeric ranges from [-1, 1]	data displays mean of mean time on body acceleration with jerk signal  in x direction
+time.body.accjerk.mean...y	numeric ranges from [-1, 1]	data displays mean of mean time on body acceleration with jerk signal  in y direction
+time.body.accjerk.mean...z	numeric ranges from [-1, 1]	data displays mean of mean time on body acceleration with jerk signal  in z direction
+time.body.gyro.mean...x	numeric ranges from [-1, 1]	data displays mean of mean time on body  with gyro signal  in x direction
+time.body.gyro.mean...y	numeric ranges from [-1, 1]	data displays mean of mean time on body  with gyro signal  in y direction
+time.body.gyro.mean...z	numeric ranges from [-1, 1]	data displays mean of mean time on body  with gyro signal  in z direction
+time.body.gyrojerk.mean...x	numeric ranges from [-1, 1]	data displays mean of mean time on body  with gyro jerk signal  in x direction
+time.body.gyrojerk.mean...y	numeric ranges from [-1, 1]	data displays mean of mean time on body  with gyro jerk signal  in y direction
+time.body.gyrojerk.mean...z	numeric ranges from [-1, 1]	data displays mean of mean time on body  with gyro jerk signal  in z direction
+time.body.acc.mag.mean..	numeric ranges from [-1, 1]	data displays mean of mean time on body acceleration  with magnitude calculated 
+time.gravity.acc.mag.mean..	numeric ranges from [-1, 1]	data displays mean of mean time on gravity acceleration  with magnitude calculated 
+time.body.accjerk.mag.mean..	numeric ranges from [-1, 1]	data displays mean of mean time on body acceleration with jerk signal with magnitude calculated 
+time.body.gyro.mag.mean..	numeric ranges from [-1, 1]	data displays mean of mean time on body  with gyro signal with magnitude calculated 
+time.body.gyrojerk.mag.mean..	numeric ranges from [-1, 1]	data displays mean of mean time on body  with gyro jerk signal with magnitude calculated 
+frequency.body.acc.mean...x	numeric ranges from [-1, 1]	data displays mean of mean frequency on body acceleration in x direction
+frequency.body.acc.mean...y	numeric ranges from [-1, 1]	data displays mean of mean frequency on body acceleration in y direction
+frequency.body.acc.mean...z	numeric ranges from [-1, 1]	data displays mean of mean frequency on body acceleration in z direction
+frequency.body.accjerk.mean...x	numeric ranges from [-1, 1]	data displays mean of mean frequency on body acceleration with jerk signal  in x direction
+frequency.body.accjerk.mean...y	numeric ranges from [-1, 1]	data displays mean of mean frequency on body acceleration with jerk signal  in y direction
+frequency.body.accjerk.mean...z	numeric ranges from [-1, 1]	data displays mean of mean frequency on body acceleration with jerk signal  in z direction
+frequency.body.gyro.mean...x	numeric ranges from [-1, 1]	data displays mean of mean frequency on body  with gyro signal  in x direction
+frequency.body.gyro.mean...y	numeric ranges from [-1, 1]	data displays mean of mean frequency on body  with gyro signal  in y direction
+frequency.body.gyro.mean...z	numeric ranges from [-1, 1]	data displays mean of mean frequency on body  with gyro signal  in z direction
+frequency.body.acc.mag.mean..	numeric ranges from [-1, 1]	data displays mean of mean frequency on body acceleration  with magnitude calculated 
+frequency..body.accjerk.mag.mean..	numeric ranges from [-1, 1]	data displays mean of mean frequency on body acceleration with jerk signal with magnitude calculated 
+frequency..body.gyro.mag.mean..	numeric ranges from [-1, 1]	data displays mean of mean frequency on body  with gyro signal with magnitude calculated 
+frequency..body.gyrojerk.mag.mean..	numeric ranges from [-1, 1]	data displays mean of mean frequency on body  with gyro jerk signal with magnitude calculated 
+time.body.acc.std...x	numeric ranges from [-1, 1]	data displays mean of standard deviation time on body acceleration in x direction
+time.body.acc.std...y	numeric ranges from [-1, 1]	data displays mean of standard deviation time on body acceleration in y direction
+time.body.acc.std...z	numeric ranges from [-1, 1]	data displays mean of standard deviation time on body acceleration in z direction
+time.gravity.acc.std...x	numeric ranges from [-1, 1]	data displays mean of standard deviation time on gravity acceleration in x direction
+time.gravity.acc.std...y	numeric ranges from [-1, 1]	data displays mean of standard deviation time on gravity acceleration in y direction
+time.gravity.acc.std...z	numeric ranges from [-1, 1]	data displays mean of standard deviation time on gravity acceleration in z direction
+time.body.accjerk.std...x	numeric ranges from [-1, 1]	data displays mean of standard deviation time on body acceleration with jerk signal  in x direction
+time.body.accjerk.std...y	numeric ranges from [-1, 1]	data displays mean of standard deviation time on body acceleration with jerk signal  in y direction
+time.body.accjerk.std...z	numeric ranges from [-1, 1]	data displays mean of standard deviation time on body acceleration with jerk signal  in z direction
+time.body.gyro.std...x	numeric ranges from [-1, 1]	data displays mean of standard deviation time on body  with gyro signal  in x direction
+time.body.gyro.std...y	numeric ranges from [-1, 1]	data displays mean of standard deviation time on body  with gyro signal  in y direction
+time.body.gyro.std...z	numeric ranges from [-1, 1]	data displays mean of standard deviation time on body  with gyro signal  in z direction
+time.body.gyrojerk.std...x	numeric ranges from [-1, 1]	data displays mean of standard deviation time on body  with gyro jerk signal  in x direction
+time.body.gyrojerk.std...y	numeric ranges from [-1, 1]	data displays mean of standard deviation time on body  with gyro jerk signal  in y direction
+time.body.gyrojerk.std...z	numeric ranges from [-1, 1]	data displays mean of standard deviation time on body  with gyro jerk signal  in z direction
+time.body.acc.mag.std..	numeric ranges from [-1, 1]	data displays mean of standard deviation time on body acceleration  with magnitude calculated 
