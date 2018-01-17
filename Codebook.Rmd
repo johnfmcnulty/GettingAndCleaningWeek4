@@ -3,6 +3,10 @@ title: "Codebook"
 output: html_document
 ---
 
+## Codebook
+
+Below are variables used in tidydata.txt 
+
 subject integer ranges from [1, 30]  with labelling describing the activity of the subject
 
 activity factor ranges from [1, 6]  identifies the subject performing activity
@@ -134,6 +138,7 @@ frequency.body.gyro.std...z numeric ranges from [-1, 1] data displays mean of st
 frequency.body.acc.mag.std.. numeric ranges from [-1, 1] data displays mean of standard deviation frequency on body acceleration with magnitude calculated
 
 frequency..body.accjerk.mag.std.. numeric ranges from [-1, 1] data displays mean of standard deviation frequency on body acceleration with jerk signal with magnitude calculated 
+
 frequency..body.gyro.mag.std.. numeric ranges from [-1, 1] data displays mean of standard deviation frequency on body with gyro signal with magnitude calculated
 
 frequency..body.gyrojerk.mag.std.. numeric ranges from [-1, 1] data displays mean of standard deviation frequency on body with gyro jerk signal with magnitude calculated 
