@@ -3,6 +3,10 @@ title: "Codebook"
 output: html_document
 ---
 
+## Codebook
+
+Below are variables used in tidydata.txt 
+
 subject integer ranges from [1, 30]  with labelling describing the activity of the subject
 
 activity factor ranges from [1, 6]  identifies the subject performing activity
